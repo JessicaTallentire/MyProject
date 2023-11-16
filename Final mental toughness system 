@@ -1,0 +1,1017 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNho7r5oEaK1S1BD7hWoLAm",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/JessicaTallentire/MyProject/blob/main/Final%20mental%20toughness%20system%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "RWLA23amDucX",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "b71f7108-be80-408b-e601-4961d982ea28"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "i frequently worry about my mistakest\n",
+            "t\n",
+            "1\n"
+          ]
+        }
+      ],
+      "source": [
+        "score = 0\n",
+        "\n",
+        "Answer1 = str(input(\"i frequently worry about my mistakes\"))\n",
+        "\n",
+        "print(Answer1)\n",
+        "\n",
+        "if Answer1 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer2 = str(input(\"I get really down on myself during performance when i mess up\"))\n",
+        "\n",
+        "print(Answer2)\n",
+        "\n",
+        "if Answer2 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "iXWJ8EAAD1Jg",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "6212f0a8-7e77-43e6-831a-67851011ac43"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I get really down on myself during performance when i mess upf\n",
+            "f\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer3 = str(input(\"It's hard for me to let go of my mistakes\"))\n",
+        "\n",
+        "print(Answer3)\n",
+        "\n",
+        "if Answer3 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "JuBUpwgPD6-w",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "17fae2f2-637e-4b5b-d5ad-c16e4f5a53c4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "It's hard for me to let go of my mistakest\n",
+            "t\n",
+            "2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer4 = str(input(\"if i start out badly, it's hard for me to turn my performance around\"))\n",
+        "\n",
+        "print(Answer4)\n",
+        "\n",
+        "if Answer4 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "jIc3BuCAY5Hx",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "1fa0202e-e9fa-472d-fd3e-ae8e1cf56e10"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "if i start out badly, it's hard for me to turn my performance aroundt\n",
+            "t\n",
+            "3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer5 = str(input(\"I get distracted by what the coach thinks whenever i mess up\"))\n",
+        "\n",
+        "print(Answer5)\n",
+        "\n",
+        "if Answer5 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "jILpqgQsECB3",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "287758f3-288d-498c-e225-dd9956d9cf7e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I get distracted by what the coach thinks whenever i mess upt\n",
+            "t\n",
+            "4\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer6 = str(input(\"I struggle to bounce back quickly from setback and mistakes\"))\n",
+        "\n",
+        "print(Answer6)\n",
+        "\n",
+        "if Answer6 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "8ulCnF3lEEOB",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "f07b1f17-c416-4815-f9d3-d5ca3776c86c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I struggle to bounce back quickly from setback and mistakest\n",
+            "t\n",
+            "5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer7= str(input(\"I struggle to do my best when there's more pressure on me\"))\n",
+        "\n",
+        "print(Answer7)\n",
+        "\n",
+        "if Answer7 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "AZ3dA7R3YP4q",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "fb47e3c9-38ff-4459-98ab-948b6cb823c6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I struggle to do my best when there's more pressure on met\n",
+            "t\n",
+            "6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer8= str(input(\"I get too nervous to perform to my potential\"))\n",
+        "\n",
+        "print(Answer8)\n",
+        "\n",
+        "if Answer8 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "kYV9sLd2YrFk",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "30a98c1c-8dbb-48ff-ed84-9d6bfa82945c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I get too nervous to perform to my potentialf\n",
+            "f\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer9= str(input(\"I do better at training than i do when it really counts the most\"))\n",
+        "\n",
+        "print(Answer9)\n",
+        "\n",
+        "if Answer9 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "75Bga3qhZvVa",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "deed8347-7a8c-4cfc-9586-d0da0f5f224c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I do better at training than i do when it really counts the mostt\n",
+            "t\n",
+            "7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer10= str(input(\"I tend to get easily psyched out or intimidated \"))\n",
+        "\n",
+        "print(Answer10)\n",
+        "\n",
+        "if Answer10 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "tjrmSshFZ_JP",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "9280139a-26df-4983-fb17-df2faa0c0354"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I tend to get easily psyched out or intimidated f\n",
+            "f\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer11= str(input(\"I can't keep myself calm and composed under pressure\"))\n",
+        "\n",
+        "print(Answer11)\n",
+        "\n",
+        "if Answer11 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "5o0iqOEyaUf-",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "59a7b9d2-5634-48c6-e9b5-5bdd20637b55"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I can't keep myself calm and composed under pressuret\n",
+            "t\n",
+            "8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer12= str(input(\"I don't want the ball/dread competing at crunch time\"))\n",
+        "\n",
+        "print(Answer12)\n",
+        "\n",
+        "if Answer12 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "Q_uPmPaZaiJe",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "30ea2842-199f-40d8-9184-a2bc249b34b7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I don't want the ball/dread competing at crunch timet\n",
+            "t\n",
+            "9\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer13= str(input(\"The coach's yelling knocks me off my game\"))\n",
+        "\n",
+        "print(Answer13)\n",
+        "\n",
+        "if Answer13 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "8TLj0MOucW1r",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "15536842-6c85-46dd-80ab-709d8d788655"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The coach's yelling knocks me off my gamet\n",
+            "t\n",
+            "10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer14= str(input(\"I tend to get easily distracted\"))\n",
+        "\n",
+        "print(Answer14)\n",
+        "\n",
+        "if Answer14 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "XBPEpfTBcgU2",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "5d41fca8-f66b-4edf-856a-c104c768d37a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I tend to get easily distractedt\n",
+            "t\n",
+            "11\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer15= str(input(\"Certain opponents can get into my head and throw me off my game\"))\n",
+        "\n",
+        "print(Answer15)\n",
+        "\n",
+        "if Answer15 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "_mDFaSAHcmOx",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "4fbc61ad-7f05-458a-f8de-d312687beea6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Certain opponents can get into my head and throw me off my gamet\n",
+            "t\n",
+            "12\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer16= str(input(\"Bad playing conditions negativeley impact me\"))\n",
+        "\n",
+        "print(Answer16)\n",
+        "\n",
+        "if Answer16 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "j27UrJ2dcwoc",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "5e340758-cc20-455c-b0e9-d07894091669"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Bad playing conditions negativeley impact met\n",
+            "t\n",
+            "13\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer17= str(input(\"I have trouble focusing on what's important and blocking everything else out\"))\n",
+        "\n",
+        "print(Answer17)\n",
+        "\n",
+        "if Answer17 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "dD9ABpVyc8S8",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "1c9fdee5-f2a1-4120-a73c-0999412471ef"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I have trouble focusing on what's important and blocking everything else outt\n",
+            "t\n",
+            "14\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer18= str(input(\"I think too much about what could go wrong or right before and during performance- fixate on the what ifs\"))\n",
+        "\n",
+        "print(Answer18)\n",
+        "\n",
+        "if Answer18 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "l-MnUw8idLpv",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "962bbdbd-d229-47d0-c2a0-708ff7d7ad0f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I think too much about what could go wrong or right before and during performance- fixate on the what ifst\n",
+            "t\n",
+            "15\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer19= str(input(\"one or two failures shake my confidence\"))\n",
+        "\n",
+        "print(Answer19)\n",
+        "\n",
+        "if Answer19 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "ZvqIilgKdgVm",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "1bd31f4b-9e2d-45ad-8492-32a290e9f55c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "one or two failures shake my confidencef\n",
+            "f\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer20= str(input(\"I tend to catch myself comparing myself too much with teamates and opponents\"))\n",
+        "\n",
+        "print(Answer20)\n",
+        "\n",
+        "if Answer20 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "gRypbfUPdrhI",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "168c2d71-fffb-46c3-dc0b-81f23f1e597d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I tend to catch myself comparing myself too much with teamates and opponentst\n",
+            "t\n",
+            "16\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer21= str(input(\"I'd rather compete a weaker opponent and win instead of a better opponent and lose\"))\n",
+        "\n",
+        "print(Answer21)\n",
+        "\n",
+        "if Answer21 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "YHrQOMZud84y",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "1f910e75-5db6-47f7-e5f6-9574be9dbec3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I'd rather compete a weaker opponent and win instead of a better opponent and loset\n",
+            "t\n",
+            "17\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer22= str(input(\"I struggle to be a confident and self assured athlete\"))\n",
+        "\n",
+        "print(Answer22)\n",
+        "\n",
+        "if Answer22 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "9hbnLy2OeQ1x",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "b1969235-bcfd-4089-dfa4-8c144067daaf"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I struggle to be a confident and self assured athletet\n",
+            "t\n",
+            "18\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer23= str(input(\"I tend to be too negative\"))\n",
+        "\n",
+        "print(Answer23)\n",
+        "\n",
+        "if Answer23 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "FUYF9pqleX6u",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "1cebe44e-d983-42d3-c314-892140b6297a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I tend to be too negativet\n",
+            "t\n",
+            "19\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer24= str(input(\"I have trouble dealing with negative self talk/thoughts\"))\n",
+        "\n",
+        "print(Answer24)\n",
+        "\n",
+        "if Answer24 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "OHd0gcSredPz",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "2445aad3-b0dc-4026-fbc4-c0d83b751910"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I have trouble dealing with negative self talk/thoughtst\n",
+            "t\n",
+            "20\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer25= str(input(\"I struggle to stay motivated after failures or setbacks\"))\n",
+        "\n",
+        "print(Answer25)\n",
+        "\n",
+        "if Answer25 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "rn6NHdj3epKZ",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "bff21637-30e1-4a33-dbb0-e85a0f8032bf"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I struggle to stay motivated after failures or setbackst\n",
+            "t\n",
+            "21\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer26= str(input(\"It's hard for me to stay motivated when consistently training at high level of intensity\"))\n",
+        "\n",
+        "print(Answer26)\n",
+        "\n",
+        "if Answer26 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "q2vWYwYFe2Uh",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "23f21d71-e520-48c1-9ab4-df32c1217a0f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "It's hard for me to stay motivated when consistently training at high level of intensityt\n",
+            "t\n",
+            "22\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer27= str(input(\"I forget to think about how today's training session will help me achieve my goals\"))\n",
+        "\n",
+        "print(Answer27)\n",
+        "\n",
+        "if Answer27 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "sSZEw9m2fK9Y",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "cc449247-1610-47e8-aca2-682b1cacd2dd"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I forget to think about how today's training session will help me achieve my goalsf\n",
+            "f\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer28= str(input(\"I find myself going through the motions a lot in training sessions\"))\n",
+        "\n",
+        "print(Answer28)\n",
+        "\n",
+        "if Answer28 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "MuNPeF9tfdd0",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "4a45032d-f02f-487d-805f-b8a531a7bc86"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I find myself going through the motions a lot in training sessionst\n",
+            "t\n",
+            "23\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer29= str(input(\"I don't have clear goals that are important for me to achieve\"))\n",
+        "\n",
+        "print(Answer29)\n",
+        "\n",
+        "if Answer29 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "kTN4X7U_fmEs",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "ee529d65-3723-49e7-8139-9f30034a364d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I don't have clear goals that are important for me to achievet\n",
+            "t\n",
+            "24\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Answer30= str(input(\"I am not a highly motivated athlete\"))\n",
+        "\n",
+        "print(Answer30)\n",
+        "\n",
+        "if Answer30 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "YudJqjDmfypz",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "846ca5cc-cd09-4363-d52b-3f4b52f8c5f3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I am not a highly motivated athletet\n",
+            "t\n",
+            "25\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if score<22:\n",
+        "    print(\"you have high mental toughness\")\n",
+        "\n",
+        "elif score>22 and score<25:\n",
+        "    print(\"you have moderate mental toughness\")\n",
+        "\n",
+        "if score>24:\n",
+        "    print(\"you have low mental toughness, it is a major area for improvement\")"
+      ],
+      "metadata": {
+        "id": "eHLmAkUqEP7Z",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "f6f73993-2c1b-4148-a431-1aa321fee9d9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "you have low mental toughness, it is a major area for improvement\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
