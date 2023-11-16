@@ -1,0 +1,72 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOr/WE65EEguqk1K5Gna1Qv",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/JessicaTallentire/MyProject/blob/main/prototype%20Conditional%20statement%20potential%20result%20idea\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FiboiO5gILRt",
+        "outputId": "6afee934-af69-46cb-b08c-433319267b8b"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "what is your score21\n",
+            "you have high mental tougness\n"
+          ]
+        }
+      ],
+      "source": [
+        "score = int(input(\"what is your score\"))\n",
+        "\n",
+        "if score<22:\n",
+        "    print(\"you have high mental tougness\")\n",
+        "\n",
+        "elif score>22 and score<25:\n",
+        "    print(\"you have moderate mental toughness\")\n",
+        "\n",
+        "if score>25:\n",
+        "    print(\"you have low mental toughness, it is a major area for improvement\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "nK3eD6p7JC9H"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
