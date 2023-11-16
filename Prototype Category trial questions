@@ -1,0 +1,198 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOUIhcSrCO//Q2kJs8zOPHm",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/JessicaTallentire/MyProject/blob/main/Prototype%20Category%20trial%20questions\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "E-JRcS4SJqE-",
+        "outputId": "38915ad3-78f9-4804-c343-34b185e14976"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "i frequently worry about my mistakest\n",
+            "t\n",
+            "1\n"
+          ]
+        }
+      ],
+      "source": [
+        "score = 0\n",
+        "cat1=0\n",
+        "cat2 = 0\n",
+        "\n",
+        "Answer1 = str(input(\"i frequently worry about my mistakes\"))\n",
+        "\n",
+        "print(Answer1)\n",
+        "\n",
+        "if Answer1 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)\n",
+        "\n",
+        "# if age<=10:\n",
+        "#    print(\"You are too young for a driving licence.\")\n",
+        "#elif age>10 and age<18:\n",
+        "#    print(\"Come back when you are 18 years of age.\")\n",
+        "#else:\n",
+        " #   print(\"You can apply for a driving licence!\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "\n",
+        "Answer2 = str(input(\"I get really down on myself during performance when i mess up\"))\n",
+        "\n",
+        "print(Answer2)\n",
+        "\n",
+        "if Answer2 == \"t\" :\n",
+        "  cat1 +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sj5pJiAUTR0z",
+        "outputId": "6d01b1e7-815c-4c71-dab3-f17f8471c27c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I get really down on myself during performance when i mess upt\n",
+            "t\n",
+            "1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "\n",
+        "Answer3 = str(input(\"It's easy for me to let go of my mistakes\"))\n",
+        "\n",
+        "print(Answer3)\n",
+        "\n",
+        "if Answer3 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "jKNzmrj1Tyt4"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "\n",
+        "Answer4 = str(input(\"I get distracted by what the coach thinks whenever i mess up\"))\n",
+        "\n",
+        "print(Answer4)\n",
+        "\n",
+        "if Answer4 == \"t\" :\n",
+        "  score +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "GCuPSwNFUBVb"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "\n",
+        "Answer5 = str(input(\"I bounce back quickly from setback and mistakes\"))\n",
+        "\n",
+        "print(Answer5)\n",
+        "\n",
+        "if Answer5 == \"t\" :\n",
+        "  cat2 +=1\n",
+        "\n",
+        "  print(score)"
+      ],
+      "metadata": {
+        "id": "D43-jo5XUK0Q"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "score = cat1 + cat2\n",
+        "\n",
+        "print(score)"
+      ],
+      "metadata": {
+        "id": "iN8b5wD2VPUX"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if score<22:\n",
+        "    print(\"you have low mental toughness, it is a major area for improvement\")\n",
+        "\n",
+        "elif score>22 and score<25:\n",
+        "    print(\"you have moderate mental toughness\")\n",
+        "\n",
+        "if score>25:\n",
+        "    print(\"you have strong mental toughness\")"
+      ],
+      "metadata": {
+        "id": "M1eLA4ajSvFE"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
